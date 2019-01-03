@@ -1,35 +1,35 @@
 # Site Settings
 encoding                 : "utf-8"
 locale                   : "en"
-title                    : "Sparrow"
+title                    : "Dan Carter's Faith Blog"
 title_separator          : "-"
-description              : "A clean and minimal theme for writers."
-favicon                  : "/assets/images/bird.png"
-avatar                   : "/assets/images/bird.png"
-url                      : "https://theconfused.me" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/sparrow" # the subpath of your site, e.g. "/blog" leave blank if no subpath
+description              : ""
+favicon                  : 
+avatar                   : 
+url                      : "https://faithblog.carterdan.net"
+baseurl                  : 
 
 # Site Author
 author:
-  name                   : "Lingyi" # appears in the footer and atom feed
+  name                   : "Dan Carter"
 
-comments                 : true # set it to false to disable comments
+comments                 : true
 disqus:
   shortname              : # sparrow-theme # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
 
 atom_feed:
-  path                   : # blank (default) uses feed.xml
+  path                   : 
 
-og_image                 : "/assets/images/bird.png" # Open Graph/Twitter default site image, optional for seo and social sharing
+og_image                 : 
 
 # Social sharing
 twitter:
-  username               : # optional, for social sharing
+  username               : 
 
 # Analytics
 analytics:
   google:
-    tracking_id          : # add your google tracking id here
+    tracking_id          : 
 
 # Reading Files
 include:
@@ -72,7 +72,7 @@ sass:
 permalink: /blog/:title/
 paginate: 5 # amount of posts to show
 paginate_path: "/blog/page:num/"
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "Europe/London" # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 collections:
   poetry:
