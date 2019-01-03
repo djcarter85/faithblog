@@ -74,11 +74,6 @@ paginate: 5 # amount of posts to show
 paginate_path: "/blog/page:num/"
 timezone: "Europe/London" # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-collections:
-  poetry:
-    output: true
-    permalink: /:collection/:title/
-
 # Plugins
 gems:
   - jekyll-paginate
@@ -107,10 +102,3 @@ defaults:
       layout: post
       comments: true
       share: true
-  # _poetry
-  - scope:
-      path: ""
-      type: poetry
-    values:
-      layout: post
-      share: false
