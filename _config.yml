@@ -69,7 +69,7 @@ sass:
 
 
 # Outputting
-permalink: /blog/:title/
+permalink: /:title/
 paginate: 5 # amount of posts to show
 paginate_path: "/blog/page:num/"
 timezone: "Europe/London" # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -101,4 +101,4 @@ defaults:
     values:
       layout: post
       comments: true
-      share: true
+      share: false
