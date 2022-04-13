@@ -5,8 +5,8 @@ title: About
 
 {{ content }}
 
-<h1 class="page__title">Recent Posts</h1>
+<h1 class="page__title">Posts</h1>
 
-{% for post in site.posts limit:3 %}
+{% for post in site.posts %}
   {% include post-entry.html %}
 {% endfor %}
